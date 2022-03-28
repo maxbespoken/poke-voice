@@ -1,5 +1,5 @@
 {
-    "virtualDeviceToken": "alexa-749b3977-d1d7-4851-b08f-55dd7a76aec5",
+    "virtualDeviceToken": "${VIRTUAL_DEVICE_TOKEN}",
     "locales": "en-US",
     "type": "e2e",
     "projectId": "sweet-young"
