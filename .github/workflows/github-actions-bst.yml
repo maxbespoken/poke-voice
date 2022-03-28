@@ -7,6 +7,7 @@ jobs:
   run-bst:
     env:
       VIRTUAL_DEVICE_TOKEN: ${{ secrets.VIRTUAL_DEVICE_TOKEN }}
+      BESPOKEN_API_BASE_URL: ${{ secrets.BESPOKEN_API_BASE_URL }}
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
