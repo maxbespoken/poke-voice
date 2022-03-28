@@ -1,0 +1,15 @@
+name: Poke voice
+on:
+  push:
+    branches:
+      - main
+jobs:
+  run-bst:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - run: npm install
+    - run: npm test
